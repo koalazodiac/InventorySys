@@ -59,6 +59,10 @@ Ensure you have the following installed:
    ```
 6. Open `http://localhost:3000` in your browser.
 
+## Future Enhancements
+- Data reports
+- Role-based access control (Admin/User permissions)
+
 ---
 Developed with ❤️ by Koalazodiac
 
