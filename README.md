@@ -6,6 +6,9 @@ The **Warehouse Inventory Management System** is a full-stack web application de
 ## Features
 - **Secure Authentication**: User signup & login system with email and password authentication.
 <img width="1470" alt="image" src="https://github.com/user-attachments/assets/8e05cc88-003d-49c1-bf41-b689972ed3b2" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/643d7cd9-ea90-4e24-8a06-659cf1cd6c4a" />
+
+
 
 - **Inventory Management**:
   - Add new items to the warehouse stock.
