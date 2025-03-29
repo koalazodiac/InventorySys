@@ -19,17 +19,17 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 db.once("open", () => console.log("Connected to MongoDB!"));
 
 // Import authentication routes
-const authRoutes = require("./Components/routes/auth");
+const authRoutes = require("./routes/auth");
 app.use("/api/auth", authRoutes);
 
-const exportRoutes = require("./Components/routes/export");
+const exportRoutes = require("./routes/export");
 app.use("/api", exportRoutes);
 
 // Import inventory routes
-const inventoryRoutes = require('./Components/routes/inventory');
+const inventoryRoutes = require('./routes/inventory');
 app.use('/api/inventory', inventoryRoutes);
 
-const itemRoutes = require("./Components/routes/itemoperations");
+const itemRoutes = require("./routes/itemoperations");
 app.use("/api/items", itemRoutes);
 
 const PORT = process.env.PORT || 5001;

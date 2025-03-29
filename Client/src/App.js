@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import LoginSignup from "./src/Components/Pages/LoginSignup/LoginSignup";
-import MainPage from "./src/Components/Pages/MainPage/MainPage";
+import LoginSignup from "./Pages/LoginSignup/LoginSignup";
+import MainPage from "./Pages/MainPage/MainPage";
 import './App.css';
-import ProtectedRoute from "./src/Components/Pages/ProtectedRoute";
-import Inventory from "./src/Components/Pages/Inventory/Inventory";
+import ProtectedRoute from "./Pages/ProtectedRoute";
+import Inventory from "./Pages/Inventory/Inventory";
 
 function App() {
   return (
