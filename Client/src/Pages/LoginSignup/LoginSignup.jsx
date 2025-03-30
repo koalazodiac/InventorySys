@@ -25,7 +25,7 @@ const LoginSignup = () => {
 
     if (action === "Sign Up") {
       try {
-        const response = await axios.post("http://localhost:5001/api/auth/register", {
+        const response = await axios.post("http://localhost:5050/api/auth/register", {
           username: name,
           email,
           password,
@@ -46,7 +46,7 @@ const LoginSignup = () => {
       }
     } else {
       try {
-        const response = await axios.post("http://localhost:5001/api/auth/login", {
+        const response = await axios.post("http://localhost:5050/api/auth/login", {
           email,
           password,
         });

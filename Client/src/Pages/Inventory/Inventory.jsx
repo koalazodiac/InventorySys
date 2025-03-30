@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Sidebar from "../../Sidebar/Sidebar"; 
+import Sidebar from "../../Components/Sidebar/Sidebar"; 
 import "./Inventory.css";
 
 const Inventory = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./MainPage.css"; // Ensure you create this CSS file
-import Sidebar from "../../Sidebar/Sidebar"; 
+import Sidebar from "../../Components/Sidebar/Sidebar"; 
 
 const MainPage = () => {
   const navigate = useNavigate();
